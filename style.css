@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: #575757;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.cabecalho {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cabecalho h1 {
+  font-size: 80px;
+}
+
+.cabecalho p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.task-text {
+  resize: none;
+  width: 70%;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  border-radius: 20px;
+  background-color: #575757;
+  border: 1px solid black;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: flex-end;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+
+.content-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 20%;
+  width: 80%;
+}
+.task-list {
+  margin-top: 20px;
+  width: 70%;
+}
+
+.task {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0px 10px;
+  height: 50px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#criar-tarefa {
+  background: #4285F4;
+}
+#apaga-tudo {
+  background-color: #34A853;
+}
+#remover-finalizados{
+  background-color: #FBBC05;
+}
+#remover-selecionado{
+  background-color: #EA4335;
+}
+#mover-cima {
+  background-color: #8806BF;
+}
+#mover-baixo {
+  background-color: #00361B;
+}
+#salvar-tarefas {
+  background-color: #BF045B;
+}
+
+.icons {
+  font-size: 20px;
+}
+
